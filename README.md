@@ -10,7 +10,7 @@ This is a basic Laravel application that fetches random users from the https://r
 - ✅ Displays users in a paginated table (10 per page)
 - ✅ Filters users by gender and nationality (optional)
 - ✅ Caches API responses for 10 minutes to reduce external requests
-- ✅ Exports the **currently visible page** (10 users) to a CSV file
+- ✅ Exports the current page users to a CSV file
 - ✅ Handles API failures gracefully with error messages
 
 ---
@@ -33,7 +33,3 @@ This is a basic Laravel application that fetches random users from the https://r
 php artisan serve
 then visit http://localhost:8000/users
 
-## Future Improvements
-
-"Given more time, I would have written a feature test for gender filtering and export logic."
-]()
